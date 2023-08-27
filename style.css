@@ -1,0 +1,63 @@
+header {
+    background-color: #add8e600; /* Light Blue color */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+header h1 {
+    font-size: 3rem; /* Increase font size */
+    font-family: 'Arial', sans-serif; /* Specify font family */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow for a stylish effect */
+}
+.body {
+    height: 200px; /* Set the desired height */
+    text-align: center;
+    background-image: linear-gradient(135deg, rgba(128, 0, 0, 0.7), rgba(17, 0, 255, 0.747));
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #fff; /* Set font color to white */
+    padding-top: 2rem; /* Add padding to center the content vertically */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#citySelect {
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 8px; /* Adjust the padding as needed */
+}
+#forecastButton {
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 8px; /* Adjust the padding as needed */
+    width: auto; /* Set the width to 'auto' to match the width of the drop-down list */
+}
+
+#forecastResults {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-top: 20px; /* Add some spacing from the button */
+    text-align: center; /* Center the text */
+    color: white; /* Set the text color */
+}
+
+/* Style the weather information */
+#weatherInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add spacing from the forecast result */
+}
+
+
+
+
+
+
